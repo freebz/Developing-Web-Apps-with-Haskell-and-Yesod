@@ -1,0 +1,3 @@
+-- Language Pragmas
+
+{-# LANGUAGE MyLanguageExtension #-}
