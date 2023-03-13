@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page Title</title>
+    <meta name="keywords" content="some sample keywords">
+    <style>h1{color:green}</style>
+  </head>
+  <body>
+    <h1>Here's one way of including content</h1>
+    <h2>Here's another </h2>
+    <script>
+      alert("This is included in the body itself");
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $("h1").click(function(){
+          alert("You clicked on the heading!");
+        });
+      });
+    </script>
+  </body>
+</html>
