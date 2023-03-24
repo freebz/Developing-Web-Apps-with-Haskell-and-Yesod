@@ -1,0 +1,9 @@
+[Service]
+ExecStart=/home/sibi/.local/bin/my-yesod-executable
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=yesod-sample
+
+[Install]
+WantedBy=multi-user.target
